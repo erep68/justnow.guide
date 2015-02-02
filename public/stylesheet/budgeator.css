@@ -1,0 +1,43 @@
+.budgeator-widget-collapse{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:8px;
+    left:20px;
+    bottom:10px;
+    position:fixed;
+    width:105px;
+    height:35px;
+    background:#f38313;
+    z-index:10000;
+}
+.budgeator-widget-collapse a{
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+.budgeator-widget-collapse a:hover{
+    text-decoration: none;
+}
+
+.budgeator-widget-expande{
+    width:600px;
+    height:400px;
+    background:white;
+}
+
+.budgeator-widget-expande .header{
+    background:#f38313;
+    padding:8px;
+    font-weight:bold;
+    color:white;
+}
+.budgeator-widget-expande .content{
+    padding:20px;
+    color:#444;;
+}
+
+#fancybox-content{
+    border:none !important;
+}
